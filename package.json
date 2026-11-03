@@ -1,0 +1,13 @@
+{
+  "name": "book-splicer",
+  "private": true,
+  "packageManager": "pnpm@11.5.0",
+  "scripts": {
+    "dev": "TURBO_TELEMETRY_DISABLED=1 turbo dev",
+    "build": "TURBO_TELEMETRY_DISABLED=1 turbo build",
+    "lint": "TURBO_TELEMETRY_DISABLED=1 turbo lint",
+    "typecheck": "TURBO_TELEMETRY_DISABLED=1 turbo typecheck",
+    "test": "TURBO_TELEMETRY_DISABLED=1 turbo test"
+  },
+  "devDependencies": { "turbo": "^2.8.0" }
+}
